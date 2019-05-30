@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>pagido</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -15,26 +15,55 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('7nkypha773w5');
+</script>
+<!-- End of Async Drift Code -->
 </head>
 <body>
 	<div class="bgimg" id="section1">
+
 		
-		</style>
 		<?php include("header.php"); ?>  
 		 <div class="icons">
- 	<a href="#" class="facebook">facebook<i class="fab fa-facebook-f"></i></a>
- 	<a href="#" class="twitter">twitter<i class="fab fa-twitter"></i></a>
- 	<a href="#" class="instagram">instagram<i class="fab fa-instagram"></i></a>
- 	<a href="#" class="linkedin">linkedin<i class="fab fa-linkedin-in"></i></a>
+ 	<a href="https://www.facebook.com/Pagido-consulting-pvt-ltd-341678879993256/" class="facebook">facebook<i class="fab fa-facebook-f"></i></a>
+ 	<a href="https://twitter.com/PagidoL" class="twitter">twitter<i class="fab fa-twitter"></i></a>
+ 	<a href="https://www.instagram.com/pagido/" class="instagram">instagram<i class="fab fa-instagram"></i></a>
+ 	<a href="https://www.linkedin.com/company/pagido-consulting-private-limited/" class="linkedin">linkedin<i class="fab fa-linkedin-in"></i></a>
  		 </div>
  		 <div class="container text-center text-primary mt-5
  		  hearderset">
 			<h2>WELCOME TO OUR DIGITAL WORLD</h2>
 			<h1>IT'S NICE TO SEE YOU HERE</h1>
-			<button class="btn btn-primary  text-white btn-lg">Enquire Now</button>
+			<a href="#section4"><button class="btn btn-primary  text-white btn-lg" >Enquire Now</button></a>
 		</div>
 	</div>
-	<?php include("aboutus.php"); ?>
+	<?php include("aboutus.php");?>
 	<section class="container
 	ourservices text-center" id="section2">
 		<h1>PORTFOLIO MANAGEMENT SERVICES</h1>
@@ -85,7 +114,7 @@
 						<p>B-CABIN</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto
+				<!-- <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto
 				">
 					<img src="img/altaf.jpg" height="300px" width="300px"  class="
 					card-img card-fluid img-responsive">
@@ -130,10 +159,10 @@
 						<h2 class="card-title">Bootstrap</h2>
 						<p>illustration</p>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
-	</section>-->
+	</section><!-- 
 	<section class="ourteam" id="section5">
 		<div class="container text-center">
 			<h1>OUR AMAZINNG TEAM</h1>
@@ -170,43 +199,41 @@
 			</div>
 
 		</div>
-	</section>
+	</section> -->
 	<section class="bg">
-	<div id="section4"class="container ml-5  ">
+	<div id="section4"class="container  ">
   <h1><font color="#000">Contacts Us</font></h1>
     <div class="row">
-  <div class="col-md-6 ">
+  <div class="col-md-6  ">
   <form action="contactform.php" onsubmit="return myfunc()" method="POST">
-  <div class="form-group">
+  <div class="form-group bg1">
     <label for="exampleInputEmail1"><font color="#000">Name</font></label>
-    <input  style="width:50% !important" type="text" class="form-control" id="name" name="name1" placeholder="Name" required="" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" >
+    <input   type="text" class="form-control" id="name" name="name1" placeholder="" required="" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" >
   </div>
-  <div class="form-group">
+  <div class="form-group bg1">
     <label for="exampleInputPassword1"><font color="#000">Email address</font></label>
-    <input style="width:50% !important" type="email" class="form-control" id="email" name="email1" placeholder="email" required="" >
+    <input  type="email" class="form-control" id="email" name="email1" placeholder="" required="" >
   </div>
   
-  <div class="form-group">
+  <div class="form-group bg1">
     <label><font color="#000">Phone number</font></label>
-    <input style="width:50% !important" type="text" class="form-control" id="phone"  name="phone1" placeholder="Phone number" required="">
-    <span id="message" style="color: black"></span>
+    <input type="text" class="form-control" id="phone"  name="phone1" placeholder="" required="">
+    
   </div>
-  <div class="form-group ">
-  	<label><font color="#000"> query</font></label>
-  	<textarea style="width: 50%!important" type="textarea" class="form-control" id="query" name="query" placeholder="
-  	query"></textarea>
+  <div class="form-group bg1 ">
+  	<label><font color="#000"> Enquiry</font></label>
+  	<textarea  type="textarea" class="form-control" id="query" name="query" placeholder="
+  	"></textarea>
   </div>
-  <div class="form-group ">
+  <div class="form-group bg1 ">
     <label for="exampleInputPassword1"><font style="bold" color="#000">city</font></label>
-    <input style="width:50% !important"  type="text" class="form-control" id="city" name="city1" placeholder="city" required="" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" >
+    <input   type="text" class="form-control" id="city" name="city1" placeholder="" required="" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" >
   </div>
   
   <button type="submit" name="submit" class="btn btn-primary submit-btn">Submit</button>
 </form>
   </div>
-    <div class="col-md-6">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.172764745488!2d72.95265131414824!3d19.187655053441198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b903a85c7b69%3A0x5873fccdbcba230f!2sInstitute+of+Management+%26+Computer+Studies!5e0!3m2!1sen!2sin!4v1536130421604" width="600" height="300s" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
+   
     </div>
   </div> 
   </section>
@@ -222,19 +249,19 @@ PAGIDO Consulting was established on 15th Sept 2018, by two MBA graduate. They b
  <div class="col-xs-6 col-md-3 text-center" >
             <h6>Quick Links</h6>
             <ul class="footer-links">
-              <li><a href="http://scanfcode.com/about/">Home</a></li>
-              <li><a href="http://scanfcode.com/contact/">About Us</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Blog</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">services</a></li>
-              <li><a href="http://scanfcode.com/sitemap/">Contact us</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#section2">services</a></li>
+              <li><a href="#section4">Contact us</a></li>
             </ul>
           </div>
 
           <div class="col-xs-6 col-md-3 text-center" >
             <h6>ADDRESS</h6>
-            <p class="text-justify text-white"><i class="fas fa-home 5x"  style="margin-right: 10px;">:</i><i>1/A Wing,Nav santosh building B-cabin,Navpada, thane west pin:400602</i></p>
+            <p class="text-justify text-white"><i class="fas fa-home 5x"  style="margin-right: 10px;">:</i><i>1/A Wing,Nav santosh building,Near Mango Showroom B-cabin,Navpada, thane west pin:400602</i></p>
              <p class="text-justify text-white"><i class="fas fa-phone-volume" style="margin-right: 10px;">:</i> <i>9967684395</i></p>
-             <p class="text-justify text-white"><i class="far fa-envelope " style="margin-right:10px; "></i><i>alif.pagido@gmail.com</i></p>
+             <p class="text-justify text-white"><i class="far fa-envelope " style="margin-right:10px; "></i><i>alif@pagidoconsuting.com</i></p>
           </div>
         </div>
         <hr>

@@ -28,8 +28,8 @@
 
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "pagido";
+$password = "pagido1234";
 $dbname = "pagido";
 
 // Create connection
@@ -55,12 +55,8 @@ if (!$conn) {
 $sql = "INSERT INTO contactform  (name1, email1,phone1,query,city1)
 VALUES ('$name1', '$email1','$phone1','$query','$city1')";
 
-if (mysqli_query($conn, $sql)) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-}
-}
+
 
 mysqli_close($conn);
+header("location:index.php");
 ?>
