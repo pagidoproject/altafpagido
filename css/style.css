@@ -1,15 +1,14 @@
 body{
 	overflow-x: hidden;
 }
-.navbar-expand-md{
-	background: transparent;
+.navbar-dark .navbar-nav .nav-link {
+    color: #65BEE8 !important; 
 }
- .navbar-brand {
+.navbar-dark .navbar-brand {
     color: #65BEE8 !important;
 }
-
 .bgimg{
-	background-image: url('/pagidofinal/img/header.jpg')!important;
+	background-image: url('banner.jpg');
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	width: 100%;
@@ -134,37 +133,15 @@ width:100%;
 @media(min-width: 768px) and (max-width: 991px){
 
 }
-@media(min-width: 575px) and (max-width: 767px)
-
-{
-.footer{
-	height: 1100px;
-	margin-bottom: 0px;
-        }
-.footer h6{
-	line-height:1100px;
-           }
+@media(min-width: 575px) and (max-width: 767px){
+	.bg1{
+width: 100%;
 }
-@media(min-width: 480px) and (max-width: 574px)
-{
-.footer{
-	height: 1100px;
-	margin-bottom: 0px;
-        }
-.footer h6{
-	line-height:1000px;
-	       }
+}
+@media(min-width: 480px) and (max-width: 574px){
 }
 
-@media(max-width: 479px)
-{
-	ooter{
-	height: 1100px;
-	margin-bottom: 0px;
-			}
-.footer h6{
-	line-height:1100px;
-		   }
+@media(max-width: 479px){
 
 
 }
@@ -244,7 +221,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 /*css for footer start here*/
 .site-footer
 {
-  background-color:#48dbfb!important;
+  background-color:#26272b!important;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -339,16 +316,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   /*code ffor socia icon*/
 .icons{
   position:absolute;
-  top: 10%;
+  top: 100%;
+  margin-top: 300px;
   left: 0px;
   width: 206px;
   display: flex;
   flex-direction: column;
 }
+/* about us*/
+ .bg-dulllight {
+background: #f7e8e8;
+padding: 80px;
+}
+
+.dulllight h1{
+font-size: 50px;font-weight:bold;
+}
+
+/*contactus*/
 .bg{
 background: #f7e8e8;
 padding: 80px;
-margin-top:430px; 
 }
 }
-
