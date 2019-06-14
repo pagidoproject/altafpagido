@@ -12,7 +12,7 @@ tr {
     border-bottom: 1px solid #cbcbcb;
 }
 th, td{
-    border: none;
+    border: double;
     height: 30px;
     padding: 2px;
 }
