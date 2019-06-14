@@ -1,0 +1,261 @@
+
+
+    /*services*/
+.about-in .card i {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color:#00a8e0;
+}
+.about-in h5.card-title {
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #2b2b2b;
+    text-transform: uppercase;
+    margin: 0;
+}
+.grids-bottom-w3ls .card {
+    background:none;
+    border:none;
+}
+/* SERVICE SECTION
+-------------------------------------------------- */
+h3.tittle {
+    text-shadow: 2px 2px 2px rgba(41, 41, 41, 0.26);
+    font-size:2.5em;
+    color: #2b2b2b;
+    font-weight:800;
+    text-transform:uppercase;
+}
+h3.tittle span {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.35em;
+    color:#000;
+    letter-spacing: 4px;
+}
+.line {
+    display: inline-block;
+    height: 2px;
+    width: 200px;
+    padding: 0;
+    background:#00a8e0;
+}
+.border{
+  width: 100px;
+}
+.booking-form input[type="text"], .booking-form input[type="submit"] {
+    color: #777;
+    background: #fff;
+    outline: none;
+    font-size: 0.91em;
+    padding: 1em 1em;
+    border: none;
+    -webkit-appearance: none;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.booking-form input[type="submit"] {
+    cursor:pointer;
+    color:#fff;
+    font-weight:600;
+        background: #000;
+}
+.booking-form select#country13 {
+    font-weight: normal;
+    border: none;
+    outline: none;
+    color: #777;
+    background: #fff;
+    outline: none;
+    font-size: 0.91em;
+    padding: 1em 1em;
+    border: none;
+    letter-spacing: 1px;
+    margin-right: 2px;
+    height: 50px;
+}
+/*---------------------------*/
+
+/*-- effect --*/
+.choose-main {
+    margin: 0 auto;
+    width: 80%;
+}
+.galsses-grid-left {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
+
+/* Common style */
+
+.galsses-grid-left figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    min-width: 100%;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%;
+    height: auto;
+    background: #3085a3;
+    text-align: center;
+}
+
+.galsses-grid-left figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.galsses-grid-left figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.galsses-grid-left figure figcaption::before,
+.galsses-grid-left figure figcaption::after {
+    pointer-events: none;
+}
+
+.galsses-grid-left figure figcaption,
+.galsses-grid-left figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/***** Lexi *****/
+
+/*---------------*/
+
+figure.effect-lexi {
+    background: -webkit-linear-gradient(-45deg, #000 0%, #fff 100%);
+    background: linear-gradient(-45deg, #000 0%, #fff 100%);
+}
+
+figure.effect-lexi img {
+    margin: -10px 0 0 -10px;
+    max-width: none;
+    width: -webkit-calc(100% + 10px);
+    width: calc(100% + 10px);
+    opacity: 0.9;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(10px, 10px, 0);
+    transform: translate3d(10px, 10px, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+figure.effect-lexi figcaption::before,
+figure.effect-lexi p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-lexi figcaption::before {
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+    width: 285px;
+    height: 300px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 900px rgba(255, 255, 255, 0.2);
+    content: '';
+    opacity: 0;
+    -webkit-transform: scale3d(0.5, 0.5, 1);
+    transform: scale3d(0.5, 0.5, 1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+figure.effect-lexi:hover img {
+    opacity: 0.6;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+figure.effect-lexi h3 {
+    text-align: left;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(5px, 5px, 0);
+    transform: translate3d(5px, 5px, 0);
+    font-size: 20px;
+    color: #fff;
+}
+
+figure.effect-lexi h3 span {
+    color: #ec1c24;
+}
+
+figure.effect-lexi p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em 3em 0em;
+    width: 140px;
+    text-align: right;
+    opacity: 0;
+    -webkit-transform: translate3d(20px, 20px, 0);
+    transform: translate3d(20px, 20px, 0);
+    font-size: .8em;
+    line-height: 1.8em;
+}
+
+figure.effect-lexi:hover figcaption::before {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+figure.effect-lexi:hover h3,
+figure.effect-lexi:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/*-- //effect --*/
+
+.galsses-grid-right h5 {
+    font-size: 1em;
+    color: #888;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+    font-weight: 600;
+}
+
+.galsses-grid-right p {
+    line-height: 2.2em;
+}
+
+.galsses-grid-left p {
+    color: #15e99d;
+}
+h4.post {
+    font-size: 1em;
+    color: #444;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.6em;
+}
+
+span.post-color {
+    font-size: 3em;
+    color: #15e99d;
+}

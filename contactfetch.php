@@ -24,7 +24,7 @@
 
 
 	<div class="container pt-5 text-warning">
-  <table class="table table-bordered">
+  <table class="table table-bordered table-striped  table-hover bg-primary">
     <thead>
       <tr>
         <th>Name</th>

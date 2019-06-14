@@ -14,7 +14,7 @@
 							<a href="#about" class="nav-link text-white">About Us</a>
 						</li>
 						<li class="nav-item">
-							<a href="admin/blog.php" class="nav-link text-white">Blog</a>
+							<a href="blog.php" class="nav-link text-white">Blog</a>
 						</li>
 						<li class="nav-item">
 							<a href="#section2" class="nav-link text-white">Services</a>

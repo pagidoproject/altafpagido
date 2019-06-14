@@ -70,17 +70,17 @@ drift.load('7nkypha773w5');
 		<p>We Are Here! To Support Your Business</p>
 		<div class="row rowsetting">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
-				<div class=" imgsetting d-block m-auto bg-warning"><a href=""><i class="fa fa-users fa-3x text-white"></i></div>
+				<div class=" imgsetting d-block m-auto bg-warning"><a href="serviceshr.html"><i class="fa fa-users fa-3x text-white"></i></div>
 				<h2>RECRUITMENT</h2></a>
 				<p><i><q>Whether you are currently recruiting, looking for advice on industry recruitment trends or simply want to source information on expected salary rates, we can help. As a selection representative, you need the best and most splendid competitors pulled in to your activity jobs.</q></i></p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
-				<div class="imgsetting d-block m-auto bg-warning"><a href=""><i class="fa fa-code fa-3x text-white"></i></div>
+				<div class="imgsetting d-block m-auto bg-warning"><a href="servicesweb.html"><i class="fa fa-code fa-3x text-white"></i></div>
 				<h2>WEB DESIGN</h2></a>
 				<p><i><q>Web Development refers to developing websites for world wide web or a private network. Web Development ranges from developing a static web site or a dynamic website. It take a lot of conceptualization,imagination and creativity to build a successful website.</q></i></p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
-				<div class="imgsetting d-block m-auto bg-warning"><a href=""><i class="fa fa-bullhorn fa-3x text-white"></i></div>
+				<div class="imgsetting d-block m-auto bg-warning"><a href="servicesdig.html"><i class="fa fa-bullhorn fa-3x text-white"></i></div>
 				<h2>DIGITAL MARKETING</h2></a>
 				<p><i><q>The main advantage of digital marketing is that the targeted audience can be reached in cost-effective and measurable way's. Digitalized marketing is benefit for all sizes of business by giving an access to the mass market at an affordable price.</q></i></p>
 			</div>
