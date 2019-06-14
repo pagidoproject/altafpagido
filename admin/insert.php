@@ -1,7 +1,7 @@
 
 <?php
 
-$connect = mysqli_connect("localhost","root","","pagido");
+$connect = mysqli_connect("localhost","pagido","pagido1234","pagido");
 if($connect){
     echo "Connected";
 }
@@ -46,7 +46,7 @@ mysqli_close($connect);
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/adminpage.css">
+    <link rel="stylesheet" type="text/css" href="adminpage.css">
 
 
 	<title></title>
@@ -163,7 +163,7 @@ mysqli_close($connect);
 
 		<input class="form-control" type="text" placeholder="Author Name" name="author">
 
-		<input class="form-control " type="text" placeholder="Type your Content" name="content">
+		<textarea class="form-control " type="text" placeholder="Type your Content" name="content"></textarea>
 
 		 <input class="form-control" type="file" name="fileToUpload" id="fileToUpload">
 

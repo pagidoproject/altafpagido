@@ -1,6 +1,6 @@
 <?php 
 	session_start();
-	$db = mysqli_connect('localhost', 'root', '', 'pagido');
+	$db = mysqli_connect('localhost', 'pagido', 'pagido1234', 'pagido');
 
 	// initialize variables
 	$title = "";

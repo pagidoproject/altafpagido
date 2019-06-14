@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <body>	
 
@@ -19,7 +19,7 @@
 
 			<input type="password" name="password" placeholder="Password">
 
-			<input type="submit" name="login" value="Login" class="btn">
+			<input type="submit" name="login" onclick="myFunction()" value="Login" class="btn">
 
 			<a href="">Forget Password</a>
 				
@@ -28,7 +28,11 @@
 	</form>
 		
 	</div>
-
+<script>
+function myFunction() {
+  location.replace("adminpage.php")
+}
+</script>
 
 </body>
 
@@ -36,7 +40,7 @@
 </html>
 
 <?php
-$conn = mysqli_connect("localhost","root","","pagido");
+$conn = mysqli_connect("localhost","pagido","pagido1234","pagido");
 			  // Check connection
 		if (!$conn) {
 			  die("Connection failed because: " . mysqli_connect_error());
@@ -61,7 +65,7 @@ $conn = mysqli_connect("localhost","root","","pagido");
   			session_start();
   			$_SESSION['login']=$id;
   		
-			header('location:/admin/adminpage.php');
+			header('location:adminpage.php');
 
 				
 		}

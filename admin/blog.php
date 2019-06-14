@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/blogg.css">
+	<link rel="stylesheet" type="text/css" href="blogg.css">
 		<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -19,6 +19,7 @@
 	<style type="text/css">
 		
 	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
@@ -31,19 +32,19 @@
 				<div class="collapse navbar-collapse text-left" id="collapsenavbar">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a href="" class="nav-link text-white">Home</a>
+							<a href="index.php" class="nav-link text-white">Home</a>
 						</li>
 						<li class="nav-item">
-							<a href="" class="nav-link text-white">About Us</a>
+							<a href="index.php" class="nav-link text-white">About Us</a>
 						</li>
 						<li class="nav-item">
-							<a href="admin/blog.php" class="nav-link text-white">Blog</a>
+							<a href=blog.php" class="nav-link text-white">Blog</a>
 						</li>
 						<li class="nav-item">
-							<a href="" class="nav-link text-white">Services</a>
+							<a href="index.php#section3" target="_blank" class="nav-link text-white">Services</a>
 						</li>
 						<li class="nav-item">
-							<a href="" class="nav-link text-white">Contact Us</a>
+							<a href="index.php" class="nav-link text-white">Contact Us</a>
 						</li>
 					</ul>
 				</div>
@@ -58,7 +59,7 @@
 	<?php
 
 
-$connect = mysqli_connect("localhost","root","","pagido");
+$connect = mysqli_connect("localhost","pagido","pagido1234","pagido");
 	
 if (!$connect) {
 die("Not connected : " . mysql_error());
