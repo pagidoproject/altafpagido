@@ -1,5 +1,6 @@
 body{
 	overflow-x: hidden;
+  overflow-y: hidden;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #65BEE8 !important; 
